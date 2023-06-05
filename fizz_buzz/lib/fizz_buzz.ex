@@ -24,6 +24,7 @@ defmodule FizzBuzz do
   end
 
   # Utilização do Guards
+  # https://hexdocs.pm/elixir/main/patterns-and-guards.html#guards
   defp evaluate_numbers(number) when rem(number, 3) == 0 and rem(number, 5) == 0, do: :fizzbuzz
   defp evaluate_numbers(number) when rem(number, 3) == 0, do: :fizz
   defp evaluate_numbers(number) when rem(number, 5) == 0, do: :buzz
