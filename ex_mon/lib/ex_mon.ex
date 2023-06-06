@@ -1,5 +1,4 @@
 defmodule ExMon do
-
   alias ExMon.Player
   alias ExMon.Game.Status
   alias ExMon.Game.Actions
